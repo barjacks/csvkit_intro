@@ -14,6 +14,8 @@ Zuerst das Terminal öffnen:
 - [Auf Linux](http://www.psychocats.net/ubuntu/terminal)
 - [Und bei Windows](http://smallbusiness.chron.com/open-terminal-session-windows-7-56627.html)
 
+
+Dann sich für eine Methode 1-3 entscheiden und die entsprechenden Befehle eingeben. 
 1. Mit dem Befehl ```easy_install csvkit```
 2. Folgendes in das Terminal eingeben: ```sudo easy_install pip``` und dann ```pip install csvkit```.
 3. Falls das nicht funktioniert mit ```sudo pip install csvkit```.
