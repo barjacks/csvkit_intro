@@ -44,7 +44,7 @@
 - Schauen wir uns ein anderes Datum an: ```csvgrep -m '2012-05-24 23:59:00' -c 'E_Zeit' öv.csv```
 - Möglicherweise müssen hier also die Daten bereinigt werden?
 
-##4. An welchem Tag passierten die meisten Ereignisse?
+## 4. An welchem Tag passierten die meisten Ereignisse?
 
 - Zuerst filtern wir nur die Daten heraus: ```csvcut -c "E_Zeit" öv.csv```
 - Nun müssen wir die Daten beschneiden. Das tun wir mit dieser kryptischen Zeile, die wir von [hier zusammengeklaut](https://www.ibm.com/developerworks/aix/library/au-unixtext/index.html) haben. ```awk -F: '{printf("%s \n", substr($1,1,10))}'```
@@ -52,4 +52,4 @@
 - Also alles zusammen: ```csvcut -c "E_Zeit" öv.csv |awk -F: '{printf("%s \n", substr($1,1,10))}'|head -5```
 - Und jetzt können wir einfach zählen, wie wir das bereits getan haben. Die ganze Zeile sieht also so aus: ```csvcut -c "E_Zeit" öv.csv |awk -F: '{printf("%s \n", substr($1,1,10))}'|csvstat -c "E_Zeit" --freq-count 10```
 
-##5. ... ?
+## 5. ... ?
