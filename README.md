@@ -1,5 +1,5 @@
-## Eine Einführung in CSVkit, für jedermann
-### Gigantisch grosse Datensätze lesen und verstehen
+## Eine Einführung in CSVkit, für jeden
+##### Gigantisch grosse Datensätze lesen und verstehen
 
 ### Intro:
 
