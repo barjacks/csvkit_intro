@@ -5,7 +5,6 @@
 
 Werfen wir zuerst einen Blick auf die [Dokumentation](https://csvkit.readthedocs.io/en/1.0.2/index.html). Die ist im Falle von CSVkit ziemlich stark.
 
-
 ### Installs:
 
 Es gibt verschiedene Wege, um CSVkit zu installieren. Hier sind
