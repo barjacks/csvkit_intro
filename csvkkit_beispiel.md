@@ -49,4 +49,4 @@ und: ```csvgrep -m 'SBBP' -c 'E_Verkehrsunternehmung1' öv_nodups.csv | csvstat 
 - Und jetzt können wir einfach zählen, wie wir das bereits getan haben. Jetzt ohne head. Die ganze Zeile sieht also so aus: ```csvcut -c "E_Datum" öv_nodups.csv |awk -F: '{printf("%s \n", substr($1,1,10))}'|csvstat -c "E_Datum" --freq-count 10```
 - Schauen wir uns diesen Tag an: ```csvgrep -r '^2012-01-20' -c 'E_Datum' öv_nodups.csv```
 
-## 5. ... ?
+## 4. ... ?
