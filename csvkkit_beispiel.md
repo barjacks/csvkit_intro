@@ -1,4 +1,4 @@
-# Einführung in CSVkit, ein Zusatzprogramm der Kommandozeile
+# Einführung in CSVkit oder: Excel, nie mehr, nie mehr!
 
 ## Erste Schritte
 - Machen wir zuerst einen Ordner, um unsere Daten abzulegen. ```mkdir data```
