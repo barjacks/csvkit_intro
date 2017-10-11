@@ -42,7 +42,7 @@ und: ```csvgrep -m 'SBBP' -c 'E_Verkehrsunternehmung1' öv_nodups.csv | csvstat 
 
 - Zählen wir, an welche Datum die meisten Ereignisse passierten```csvstat -c "E_Datum" --freq-count 10 öv_nodups.csv```
 - Das genügt uns nicht. Denn hier ist auch die Zeit dabei. Diese Zeit muss weg.
-- Zuerst filtern wir nur die Daten heraus: ```csvcut -c "E_Datum" öv_nodups```
+- Zuerst filtern wir nur die Daten heraus: ```csvcut -c "E_Datum" öv_nodups.csv```
 - Nun müssen wir die Daten beschneiden. Das tun wir mit dieser kryptischen Zeile, die wir von [hier zusammengeklauen](https://www.ibm.com/developerworks/aix/library/au-unixtext/index.html). ```awk -F: '{printf("%s \n", substr($1,1,10))}'```
 - Um zu testen arbeiteten wir am Ende noch mit ```|head -5```
 - Also alles zusammen: ```csvcut -c "E_Datum" öv_nodups.csv |awk -F: '{printf("%s \n", substr($1,1,10))}'|head -5```
