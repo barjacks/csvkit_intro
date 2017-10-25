@@ -15,7 +15,7 @@ drei davon.
 - [Auf Linux](http://www.psychocats.net/ubuntu/terminal)
 - [Und bei Windows](http://smallbusiness.chron.com/open-terminal-session-windows-7-56627.html)
 
-**Mac- und Linux-Nuter**
+**Mac- und Linux-Nutzer**
 
 1. Den Befehl ```easy_install csvkit``` in das Terminal eingeben.
 2. Falls das nicht funktioniert, das ```sudo easy_install pip``` und darauf ```pip install csvkit```.
