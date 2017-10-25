@@ -6,9 +6,6 @@ Werfen wir zuerst einen Blick auf die [Dokumentation](https://csvkit.readthedocs
 
 ### Installs:
 
-Es gibt verschiedene Wege, um CSVkit zu installieren. Hier sind
-drei davon.
-
 **Zuerst das Terminal öffnen:**
 
 - [Auf dem Mac](https://www.youtube.com/watch?v=zw7Nd67_aFw)
@@ -23,7 +20,7 @@ drei davon.
 
 **Windows-Nutzer**
 
-Sie müssen einen kleineren Umweg nehmen, und zuerst Python auf dem Gerät installieren. Der US-Journalist Anthony DeBarros hat dafür eine gute Anleitung geschrieben. [Ihr findet sie hier](http://www.anthonydebarros.com/2014/02/16/setting-up-python-in-windows-8-1/).
+Sie müssen einen kleineren Umweg nehmen, und zuerst Python auf dem Gerät installieren. Und erst dann läuft csvkit auf ihrem Gerät. Der US-Journalist Anthony DeBarros hat dafür eine gute Anleitung geschrieben. [Ihr findet sie hier](http://www.anthonydebarros.com/2014/02/16/setting-up-python-in-windows-8-1/).
 
 
-Dann müssen wir noch den Texteditor [Atom](https://atom.io/) installieren. Sollte nichts davon funktionieren, bitte bei [Mathias](mathias.born@bernerzeitung) oder [Barnaby](barnaby.skinner@sonntagszeitung.ch) melden.
+Dann braucen wir noch den Texteditor [Atom](https://atom.io/) installieren. Sollte nichts davon funktionieren, bitte bei [Mathias](mathias.born@bernerzeitung) oder [Barnaby](barnaby.skinner@sonntagszeitung.ch) melden.
